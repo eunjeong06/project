@@ -9,3 +9,32 @@
 day 1,2,3 웹취약점 분석하는 방법조사
 
 https://owasp.org/
+
+<day1 웹 취약점 분석 관련 조사>
+
+웹 취약점 사례Top10
+1. 취약한 접근 제어
+2. 암호화 오류
+3. 인젝션
+4. 안전하지 않은 설계
+5. 보안 구성 오류
+6. 취약하고 오래된 구성 요소
+7. 식별 및 인증 실패
+8. 소프트웨어 및 데이터 무결성 실패
+9. 보안 로깅 및 모니터링 실패
+10. 서버 측 요청 위조
+
+ https://owasp.org/www-project-webgoat/ 
+공격 방어 연습 가능한 학습용 웹 애플리케이션
+
+https://tryhackme.com/
+단계별 해킹 & 보안 실습 플랫폼
+
+https://www.hackthebox.com/
+tryhackme보다 난이도가 높은 실습 플랫
+
+https://webhacking.kr/
+웹 취약점 문제 사이트
+
+https://dreamhack.io/
+보안 입문 한국어 기반 학습용 사이
