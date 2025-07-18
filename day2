@@ -1,8 +1,13 @@
 day2
 juice-shop 리눅스에서 실행
-과제1
+<성공한 과제>
+과제1 Score board
+과제2 DOM XSS
+과제3 Bonus Credit(song)
+-> 최종 과제 성공률 3%
+
 DOM XSS
 DOM: Document Object Model
 XSS: Cross Site Scripting 
 즉 정리해서 말하면  DOM XSS 는 DOM이라는 것이 HTML에서 쓰이는데 웹 개발자가 자바스크립트 코드를 불안정하게 설정하여 
-보안 취약점이 생기게 되면 해커가 웹을 들어가서 XSS라는 공격을 실행하여 사용자의 쿠키를 훼손하는 등의 악성 결과가 생긵다 
+보안 취약점이 생기게 되면 해커가 웹을 들어가서 XSS라는 공격을 실행하여 사용자의 쿠키를 훼손하는 등의 악성 결과가 생긴다 
