@@ -1,0 +1,8 @@
+1. foxsfroxy 설치하기 
+2. burpsuit 설치하기
+
+그 후 foxyproxy option에서 burp모드 추가하기 * 127.0.0.1에서 포트는 8080
+burpsuit 접속해서 target URL에 주스샵 주소 복붙
+burp froxy설정에서 URL 허용해주고 다시 주스샵으로 복귀
+주스샵 feedback창에서 제출하고 burp 들어가보면 POST로 떠 있음
+그거 눌러서 rating: 내가 준 별점 개수를 0으로 설정해주고 그거 포워드 해주면 * 포워드가 주스샵으로 내가 바꾼 별점 보내주는 거임 * 이런 그지같은 거 끗!
