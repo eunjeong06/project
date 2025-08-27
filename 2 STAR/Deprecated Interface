@@ -1,1 +1,7 @@
-
+아직 삭제되지 않은 B2B 관련 정보를 juice-shop에 보내는 과제임
+그래서 개발자 모드에서 main에 들어가서 B2B를 검색함
+나오는 코드는 아래 한 줄이었음
+input area for uploading a single invoice PDF or XML B2B order file or a ZIP archive containing multiple invoices or orders
+이것을 보고 PDF 파일이나 XML 파일을 juice-shop 홈페이지에서 찾아보았지만 찾을 수 없었음
+알고보니 파일을 홈페이지에 전송하는 것이 아니라 XML 파일을 업로드하는 그 자체에 취약점이 있음을 알 수 있음
+따라서 XML 파일을 아무거나 만들어서 컴플레인에 제출하면 클리어
