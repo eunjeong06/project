@@ -1,0 +1,16 @@
+
+주제 보고 회원가입을 해야겠다는 생각이 듦
+
+힌트 : follow the DRY principle while registering a user 
+
+DRY가 뭘까하다가 힌트 들어가서 보니까 Don't Repeat Yourself 였고 
+
+회원가입할 때 비밀번호 2번 입력하는 걸 뜻한다고 생각.
+
+실제로 juice shop 다시 회원가입하려고 보니 비번 입력값이 다르면 가입을 못함
+
+근데 한번인증하고 나니 첫번째 비밀번호를 바꿔도 가입시켜줌
+
+1번인증으로 끝남
+
+clear
