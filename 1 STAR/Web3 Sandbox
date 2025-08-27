@@ -1,0 +1,11 @@
+Sandbox가 뭔가 하고 찾아보니 
+
+외부 프로그램이나 코드를 격리된 환경에서 실행하여 시스템을 보호하는 보안 기술이라고 함
+
+Find an accidentally deployed code sandbox for writing smart contracts on the fly
+
+실시간으로 smart contracts를 쓰기 위해 우연히 말들어진 sandbox 코드를 찾아라는게 목표였음
+
+이거도 개발자 모드에서 키워드로 검색해서 코드를 찾는 방법이라고 생각함
+
+sandbox를 키워드로 검색
