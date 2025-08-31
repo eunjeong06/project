@@ -1,1 +1,4 @@
-
+admin section은 admin 관리자만 들어갈 수 있는 공간을 들어가야 한다고 생각함
+그래서 일단 전에 로그인했었던 admin계정에 SQL인젝션을 사용하여 로그인함 -> ' OR 1=1-- 을 사용
+로그인 한 다음 개발자 창에 admin과 관련된 것들을 계속 입력해 보았더니 administraion 같은것이 떠서 이것을 사용함 
+URL 창 포트 뒤에 administration을 입력하여 접속하면 클리어
