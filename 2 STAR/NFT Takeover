@@ -12,3 +12,12 @@ BIP44-마스터키를 제공하며 정확한 경로로 들어갈 수 있고 여�
 <Retrieve Private Key from Seed/Phrase>
 위 사이트는 seed key를 private key로 변환해주는 사이트임
 BIP 44로 설정하여 private key로 바꿔야 함
+
+[해결 과정]
+1. 127.0.0.1:42000/#/administration에 접속해 한 유저의 seed phrase를 찾아냄
+2. seed phrase는 'purpose betray marriage blame crunch monitor spin slide donate sport lift clutch' 였음
+3. seed phrase를 private key로 변환해주는 사이트에 들어가 '0x5bcc3e9d38baa06e7bfaab80ae5957bbe8ef059e640311d7d6d465e6bc948e3e' 로 변환
+4. 해당 private key를 http://127.0.0.1:42000/#/juicy-nft 에 접속해 입력 후 문제 해결!
+
+[해결 원리]
+- 한 유저의 개인적인 seed phrase를 발견해 개인키로 변환해 그 개인키로 챗봇을 이용하였으므로 유저의 계정 똔,ㄴ NFT 소유권을Take over(탈취, 장악)한 것이 된다
