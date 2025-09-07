@@ -14,7 +14,7 @@ BIP44-마스터키를 제공하며 정확한 경로로 들어갈 수 있고 여�
 BIP 44로 설정하여 private key로 바꿔야 함
 
 [해결 과정]
-1. nft를 개발자 모드에 써 보니 juicy-nft를 path 경로로 발견함
+1. nft를 개발자 모드에 써 보니 juicy-nft를 path 경로로 발견함 발견한 사이트에 key를 입력하라고 나와 있음
 2. 127.0.0.1:42000/#/administration에 접속해 한 유저의 seed phrase를 찾아냄
 3. seed phrase는 'purpose betray marriage blame crunch monitor spin slide donate sport lift clutch' 였음
 4. seed phrase를 private key로 변환해주는 사이트에 들어가 '0x5bcc3e9d38baa06e7bfaab80ae5957bbe8ef059e640311d7d6d465e6bc948e3e' 로 변환
