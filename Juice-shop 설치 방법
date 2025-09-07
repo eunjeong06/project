@@ -1,0 +1,24 @@
+1. 도커 설치
+https://hackingstudypad.tistory.com/71
+-Docker는 VMware와 같이 가상화 환경 프로그램임
+-VMware와 Virtue Box랑 차이점은 이들보다 훨씬 가볍게 제작됐다는 것임 경량화
+-보통 해킹문제 낼 떄 도커를 이용
+-도커는 컨테이너라는 걸로 필요한 소프트웨어를 묶어놈
+
+docker-compose 설치
+이는 툴인데 도커의 컨테이너를 관리하기 편하도록 하는 도구
+
+2. juice-shop 설치
+   a.이름 의미
+     i. dump를 독일어로 해석한 걸 다시 영어로 해석하면 juice-shop이라고 나옴
+  설치 명령어
+  1. sudo docker pull bkimminich/juice-shop
+  2. sudo docker run-p 3000:3000 bkimminich/juice-shop
+      a. sudo는 관리자 권한으로 실행 (docker 실행하려면 관리자로 실행해야 함)
+      b. docker pull은 docker hub에서 이미지 다운받는 명령어
+          i. 사용방법
+          ii. docker pull 이미지이름:태그 (여기선 bkimminich/juice-shop이 이미지 이름임)
+          iii. 태그 없으면 디폴트로 최신 버전으로 다운받음
+      c. -p 3000:3000 호스트포트랑 컨테이너 연결시키는 명령어 (port mapping 앞이 호스트 뒤가 컨테이너 포트번호)
+      d. --rm 옵션을 추가하면 컨테이너 종료 시 데이터 자동 삭제 
+      e. -d옵션 추가하면 백그라운드에서 실행됨
