@@ -2,3 +2,6 @@
 security.txt를 보면 path 경로가 나와 있음
 -> 경로는 /.well-known/security.txt
 juice-shop URL 창에 입력하면 클리어
+
+security.txt란?
+security.txt는 웹사이트의 루트 경로나 특정 위치에 배치되는 텍스트 파일.
