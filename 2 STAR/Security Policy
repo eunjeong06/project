@@ -1,0 +1,4 @@
+힌트에 Security를 보라고 쓰여 있기 때문에 인터넷에 security를 검색해야 함
+security.txt를 보면 path 경로가 나와 있음
+-> 경로는 /.well-known/security.txt
+juice-shop URL 창에 입력하면 클리어
