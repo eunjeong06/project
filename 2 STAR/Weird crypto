@@ -1,6 +1,8 @@
 이 challenge는 juice-shop안에서 잘못된 crypto를 찾아서 운영자에게 알리라는 문제였다.
 처음에 crypto 어떻게 들어가는지 모르겠어서 찾아보니까 개발자 모드 창->Network->XHR 들어가면 crypto 기록이 뜨는 것을 알 수 있었다.
 근데 문제가 잘못된 crypto를 찾는 거라서 XHR 켜고 여러가지를 해보았는데 
-그 중에서 XHR 창을 키고 회원가입과 로그인을 하는 과정에서 response에 해시함수가 포함된 crypto기록이 있었고 이 해시함수를 
-hash analyzer이라는 사이트를 통해서 분석해 보니 MD5라는 보안에 취약한 해시 알고리즘이 떴다.
+그 중에서 XHR 창을 키고 회원가입과 로그인을 하는 과정에서 api/security answers라는 기록에서 response에 해시함수가 포함된 응답이 있었다.
+이 해시함수를 hash analyzer이라는 사이트를 통해서 분석해 보니 MD5라는 보안에 취약한 해시 알고리즘이 떴다.
 그래서 customer feedback에 MD5를 쓰면 안된다고 제보했더니 클리어가 되었다.
+
+* juice-shop 사이트에 총 5가지의 보안 취약점이 있는 crypto가 숨겨져 있는데 우리는 이 중 로그인 관련 취약점을 찾아낸 것이다.
